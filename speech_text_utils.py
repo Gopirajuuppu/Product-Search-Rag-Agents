@@ -3,7 +3,7 @@ from pathlib import Path
 import openai
 from openai import OpenAI
 
-openAI__api_key = "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"
+openAI__api_key = ""
 os.environ["OPENAI_API_KEY"] = openAI__api_key
 openai.api_key = os.environ["OPENAI_API_KEY"]
 client = OpenAI(api_key = os.environ["OPENAI_API_KEY"])
