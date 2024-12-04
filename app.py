@@ -27,7 +27,7 @@ from pandasai_agent import PandasAI_DF_Agent
 from text_classification import get_text_clasification_details
 
 
-openAI__api_key = "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"
+openAI__api_key = "apikey"
 os.environ["OPENAI_API_KEY"] = openAI__api_key
 openai.api_key = os.environ["OPENAI_API_KEY"]
 model_name = "gpt-3.5-turbo"
